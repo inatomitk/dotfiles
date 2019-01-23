@@ -10,6 +10,9 @@ repo = 'Shougo/vimproc.vim'
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 
+# ファイルツリーにgit status表示
+[[plugins]]
+repo = 'Xuyuanp/nerdtree-git-plugin'
 
 # git関連
 [[plugins]]
