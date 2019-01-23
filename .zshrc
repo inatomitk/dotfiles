@@ -105,4 +105,4 @@ export PATH="/usr/loca/opt/cassandra@2.1/bin:$PATH"
 eval "$(rbenv init -)"
 alias ssh='ssh-change-bg'
 
-
+alias mvim=/Applications/MacVim.app/Contents/bin/mvim "$@"
