@@ -10,3 +10,11 @@ repo = 'Shougo/vimproc.vim'
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 
+
+# git関連
+[[plugins]]
+repo = "airblade/vim-gitgutter"
+
+# git関連
+[[plugins]]
+repo = "tpope/vim-fugitive"
