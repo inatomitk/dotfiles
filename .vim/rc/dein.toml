@@ -21,3 +21,10 @@ repo = "airblade/vim-gitgutter"
 # git関連
 [[plugins]]
 repo = "tpope/vim-fugitive"
+
+# ファイル名検索
+[[plugins]]
+repo = "ctrlpvim/ctrlp.vim"
+hook_add = '''
+  let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+'''
