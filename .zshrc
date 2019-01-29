@@ -100,7 +100,8 @@ export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.rbenv/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-export PATH="/usr/loca/opt/cassandra@2.1/bin:$PATH"
+export PATH="/usr/local/opt/cassandra@2.1/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 eval "$(rbenv init -)"
 alias ssh='ssh-change-bg'
