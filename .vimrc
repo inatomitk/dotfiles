@@ -62,9 +62,6 @@ hi CursorLineNr ctermbg=4 ctermfg=0
 set cursorline
 hi clear CursorLine
 
-nnoremap <silent><C-e>t :NERDTreeToggle<CR>
-nnoremap <silent><C-e>f :NERDTreeFind<CR>
-
 if &compatible
   set nocompatible
 endif

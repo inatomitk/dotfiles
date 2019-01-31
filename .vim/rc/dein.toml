@@ -9,6 +9,10 @@ repo = 'Shougo/vimproc.vim'
 # ファイルツリー表示
 [[plugins]]
 repo = 'scrooloose/nerdtree'
+hook_add = '''
+  nnoremap <silent><C-e>t :NERDTreeToggle<CR>
+  nnoremap <silent><C-e>f :NERDTreeFind<CR>
+'''
 
 # ファイルツリーにgit status表示
 [[plugins]]
