@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+  name = inatomitk
+  email = 35132611+inatomitk@users.noreply.github.com
+
+[core]
+  excludesfile = ~/.gitignore
