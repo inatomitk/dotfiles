@@ -12,3 +12,8 @@ on_ft = ['html', 'javascript', 'php']
 hook_add = '''
   let g:closetag_filetypes = 'html,xhtml,phtml,javascript'
 '''
+
+[[plugins]]
+repo = 'slim-template/vim-slim'
+on_ft = 'slim'
+hook_add = 'autocmd BufRead,BufNewFile *.slim setfiletype slim'

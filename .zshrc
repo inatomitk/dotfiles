@@ -96,7 +96,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 export PATH=$HOME/bin:$PATH
+export PATH="/usr/local/bin:$PATH"
 export PATH=$HOME/.rbenv/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
