@@ -53,6 +53,11 @@ set wrapscan
 " 検索語をハイライト表示
 set hlsearch
 
+
+" filetype definition
+autocmd BufRead,BufNewFile *.slim setfiletype slim
+
+
 let g:hybrid_use_iTerm_colors = 1
 colorscheme hybrid
 syntax on

@@ -16,4 +16,3 @@ hook_add = '''
 [[plugins]]
 repo = 'slim-template/vim-slim'
 on_ft = 'slim'
-hook_add = 'autocmd BufRead,BufNewFile *.slim setfiletype slim'
