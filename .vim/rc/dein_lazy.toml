@@ -5,3 +5,10 @@ on_ft = 'javascript'
 [[plugins]]
 repo = 'maxmellon/vim-jsx-pretty'
 on_ft = 'javascript'
+
+[[plugins]]
+repo = 'alvan/vim-closetag'
+on_ft = ['html', 'javascript', 'php']
+hook_add = '''
+  let g:closetag_filetypes = 'html,xhtml,phtml,javascript'
+'''
