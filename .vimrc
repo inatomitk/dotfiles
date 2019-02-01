@@ -53,6 +53,8 @@ set wrapscan
 " 検索語をハイライト表示
 set hlsearch
 
+" insert blank line
+nnoremap <CR> i<CR><Esc>
 
 " filetype definition
 autocmd BufRead,BufNewFile *.slim setfiletype slim
