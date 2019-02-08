@@ -11,6 +11,7 @@ for f in * .[^\.]*; do
   ln -snfv "$SCRIPT_DIR"/"$f" "$HOME"/"$f"
 done
 
+if [ ! -e $HOME/.config ]; then mkdir $HOME/.config; fi
 for f in .config/*; do
   ln -snfv "$SCRIPT_DIR"/"$f" "$HOME"/"$f"
 done
