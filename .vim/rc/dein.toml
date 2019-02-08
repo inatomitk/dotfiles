@@ -59,3 +59,10 @@ repo = 'roxma/vim-hug-neovim-rpc'
 # deopleteの補完候補プラグイン
 [[plugins]]
 repo = 'Shougo/neco-syntax'
+
+# fast grep
+[[plugins]]
+repo = 'mileszs/ack.vim'
+hook_add = '''
+  let g:ackprg = 'ag --nogroup --nocolor --column'
+'''
