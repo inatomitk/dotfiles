@@ -29,6 +29,8 @@ set laststatus=2
 " コマンドラインの補完
 set wildmode=list:longest
 
+set scrolloff=5
+
 
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
@@ -52,6 +54,8 @@ set incsearch
 set wrapscan
 " 検索語をハイライト表示
 set hlsearch
+
+nnoremap <ESC><ESC> :nohl<CR>
 
 " insert blank line
 nnoremap <CR> i<CR><Esc>

@@ -12,6 +12,10 @@ repo = 'scrooloose/nerdtree'
 hook_add = '''
   nnoremap <silent><C-e>t :NERDTreeToggle<CR>
   nnoremap <silent><C-e>f :NERDTreeFind<CR>
+  " launch with nerdtree when no file specified
+  autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+  " terminate vim when only nerdtree exists
+  autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 '''
 
 # ファイルツリーにgit status表示
@@ -49,6 +53,7 @@ hook_add = '''
   let g:deoplete#enable_at_startup = 1
   inoremap <expr><Tab> pumvisible() ? "\<DOWN>" : "\<Tab>"
   inoremap <expr><S-Tab> pumvisible() ? "\<UP>" : "\<S-Tab>"
+  set completeopt+=noinsert
 '''
 
 # deopleteに必要
@@ -62,3 +67,13 @@ repo = 'roxma/vim-hug-neovim-rpc'
 # deopleteの補完候補プラグイン
 [[plugins]]
 repo = 'Shougo/neco-syntax'
+
+# fast grep
+[[plugins]]
+repo = 'mileszs/ack.vim'
+hook_add = '''
+  let g:ackprg = 'ag --nogroup --nocolor --column'
+'''
+
+[[plugins]]
+repo = 'thinca/vim-qfreplace'
