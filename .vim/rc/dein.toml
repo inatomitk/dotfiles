@@ -12,6 +12,10 @@ repo = 'scrooloose/nerdtree'
 hook_add = '''
   nnoremap <silent><C-e>t :NERDTreeToggle<CR>
   nnoremap <silent><C-e>f :NERDTreeFind<CR>
+  " launch with nerdtree when no file specified
+  autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+  " terminate vim when only nerdtree exists
+  autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 '''
 
 # ファイルツリーにgit status表示
