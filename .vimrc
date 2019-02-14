@@ -55,7 +55,7 @@ set wrapscan
 " 検索語をハイライト表示
 set hlsearch
 
-nnoremap <ESC> :nohl<CR>
+nnoremap <ESC><ESC> :nohl<CR>
 
 " insert blank line
 nnoremap <CR> i<CR><Esc>
