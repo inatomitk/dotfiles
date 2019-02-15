@@ -41,30 +41,6 @@ hook_add = '''
   let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 '''
 
-# 囲み補完
-[[plugins]]
-repo = "cohama/lexima.vim"
-
-# 補完用プラグイン
-[[plugins]]
-repo = "Shougo/deoplete.nvim"
-if = "has('python3')"
-hook_add = '''
-  let g:deoplete#enable_at_startup = 1
-'''
-
-# deopleteに必要
-[[plugins]]
-repo = 'roxma/nvim-yarp'
-
-# deopleteに必要
-[[plugins]]
-repo = 'roxma/vim-hug-neovim-rpc'
-
-# deopleteの補完候補プラグイン
-[[plugins]]
-repo = 'Shougo/neco-syntax'
-
 # fast grep
 [[plugins]]
 repo = 'mileszs/ack.vim'
@@ -72,5 +48,6 @@ hook_add = '''
   let g:ackprg = 'ag --nogroup --nocolor --column'
 '''
 
+# replace for quickfix
 [[plugins]]
 repo = 'thinca/vim-qfreplace'
