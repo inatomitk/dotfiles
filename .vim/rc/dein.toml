@@ -51,3 +51,6 @@ hook_add = '''
 # replace for quickfix
 [[plugins]]
 repo = 'thinca/vim-qfreplace'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
