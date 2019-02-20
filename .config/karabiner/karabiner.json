@@ -80,6 +80,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -129,6 +132,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -178,6 +184,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -227,6 +236,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -276,6 +288,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -325,6 +340,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -374,6 +392,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -400,6 +421,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -449,6 +473,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -498,6 +525,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -547,6 +577,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -596,6 +629,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -645,6 +681,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -694,6 +733,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -743,6 +785,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -792,6 +837,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -841,6 +889,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
@@ -890,6 +941,9 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "shift"
+                                        ],
+                                        "optional": [
+                                            "control"
                                         ]
                                     }
                                 },
