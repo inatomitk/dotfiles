@@ -31,6 +31,8 @@ set wildmode=list:longest
 
 set scrolloff=5
 
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
 
 " Tab系
 " 不可視文字を可視化(タブが「▸-」と表示される)
