@@ -16,6 +16,8 @@ hook_add = '''
   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
   " terminate vim when only nerdtree exists
   autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+  let g:NERDTreeIgnore = ['^\.DS_Store$', '^\.git$']
+  let g:NERDTreeShowHidden = 1
 '''
 
 # ファイルツリーにgit status表示
