@@ -62,6 +62,7 @@ nnoremap <CR> i<CR><Esc>
 
 " filetype definition
 autocmd BufRead,BufNewFile *.slim setfiletype slim
+autocmd BufRead,BufNewFile *.coffee setfiletype coffee
 
 
 let g:hybrid_use_iTerm_colors = 1

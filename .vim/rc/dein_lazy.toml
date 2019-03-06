@@ -17,6 +17,10 @@ hook_add = '''
 repo = 'slim-template/vim-slim'
 on_ft = 'slim'
 
+[[plugins]]
+repo = 'kchmck/vim-coffee-script'
+on_ft = 'coffee'
+
 # 囲み補完
 [[plugins]]
 repo = "cohama/lexima.vim"
