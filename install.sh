@@ -15,3 +15,8 @@ if [ ! -e $HOME/.config ]; then mkdir $HOME/.config; fi
 for f in .config/*; do
   ln -snfv "$SCRIPT_DIR"/"$f" "$HOME"/"$f"
 done
+
+if [ ! -e $HOME/.bundle ]; then mkdir $HOME/.bundle; fi
+for f in .bundle/*; do
+  ln -snfv "$SCRIPT_DIR"/"$f" "$HOME"/"$f"
+done
