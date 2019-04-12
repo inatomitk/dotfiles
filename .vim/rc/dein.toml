@@ -60,6 +60,8 @@ repo = 'tpope/vim-surround'
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = '''
+  set noshowmode
+
   let g:lightline = {
     \ 'colorscheme': 'wombat',
     \ 'active': {
@@ -70,6 +72,8 @@ hook_add = '''
     \   'gitbranch': 'fugitive#head',
     \   'filename': 'LightlineFilename',
     \ },
+    \ 'separator': { 'left': "\ue0b0", 'right': "\ue0b2" },
+    \ 'subseparator': { 'left': "\ue0b1", 'right': "\ue0b3" },
     \ }
 
     function! LightlineFilename()
