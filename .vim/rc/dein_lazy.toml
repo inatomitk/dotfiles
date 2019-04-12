@@ -21,12 +21,12 @@ on_ft = 'slim'
 repo = 'kchmck/vim-coffee-script'
 on_ft = 'coffee'
 
-# 囲み補完
+# surround completion
 [[plugins]]
 repo = "cohama/lexima.vim"
 on_i = 1
 
-# 補完用プラグイン
+# word completion management
 [[plugins]]
 repo = "Shougo/deoplete.nvim"
 if = "has('python3')"
@@ -35,17 +35,17 @@ hook_add = '''
 '''
 on_i = 1
 
-# deopleteに必要
+# deoplete dependency
 [[plugins]]
 repo = 'roxma/nvim-yarp'
 on_i = 1
 
-# deopleteに必要
+# deoplete dependency
 [[plugins]]
 repo = 'roxma/vim-hug-neovim-rpc'
 on_i = 1
 
-# deopleteの補完候補プラグイン
+# word completion
 [[plugins]]
 repo = 'Shougo/neco-syntax'
 on_i = 1

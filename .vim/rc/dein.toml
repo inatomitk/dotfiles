@@ -1,12 +1,12 @@
-# plugin管理
+# plugin management
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-# 非同期処理
+# async load
 [[plugins]]
 repo = 'Shougo/vimproc.vim'
 
-# ファイルツリー表示
+# file tree
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 hook_add = '''
@@ -20,11 +20,11 @@ hook_add = '''
   let g:NERDTreeShowHidden = 1
 '''
 
-# ファイルツリーにgit status表示
+# show git status on file tree
 [[plugins]]
 repo = 'Xuyuanp/nerdtree-git-plugin'
 
-# git関連
+# git related
 [[plugins]]
 repo = "airblade/vim-gitgutter"
 hook_add = '''
@@ -32,11 +32,11 @@ hook_add = '''
   set updatetime=100
 '''
 
-# git関連
+# git related
 [[plugins]]
 repo = "tpope/vim-fugitive"
 
-# ファイル名検索
+# search by file name
 [[plugins]]
 repo = "ctrlpvim/ctrlp.vim"
 hook_add = '''
@@ -57,6 +57,7 @@ repo = 'thinca/vim-qfreplace'
 [[plugins]]
 repo = 'tpope/vim-surround'
 
+# customize status bar 
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 hook_add = '''
