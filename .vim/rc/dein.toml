@@ -84,3 +84,7 @@ hook_add = '''
       return expand('%')
     endfunction
 '''
+
+# visualize indent
+[[plugins]]
+repo = 'Yggdroot/indentLine'
