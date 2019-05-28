@@ -1,4 +1,4 @@
 set main-view = line-number:no,interval=5 id:yes date:default author:abbreviated commit-title:yes,graph,refs,overflow=no
 
 # UI display settings
-set wrap-lines = yes
+# set wrap-lines = yes # single line staging is not disabled when active
