@@ -24,7 +24,7 @@ set scrolloff=5
 "" tab config
 " visualize tab character
 set list listchars=tab:\▸\-
-" input tab to space 
+" input tab to space
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -44,6 +44,9 @@ nnoremap <ESC><ESC> :nohl<CR>
 
 " insert blank line
 nnoremap <CR> i<CR><Esc>
+
+" remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//ge
 
 " filetype definition
 autocmd BufRead,BufNewFile *.slim setfiletype slim
