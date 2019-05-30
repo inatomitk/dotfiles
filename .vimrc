@@ -20,7 +20,6 @@ set showmatch
 set laststatus=2
 set wildmode=list:longest
 set scrolloff=5
-set conceallevel=0
 
 "" tab config
 " visualize tab character

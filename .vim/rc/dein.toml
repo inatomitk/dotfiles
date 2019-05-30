@@ -87,4 +87,11 @@ hook_add = '''
 
 # visualize indent
 [[plugins]]
-repo = 'Yggdroot/indentLine'
+repo = 'nathanaelkane/vim-indent-guides'
+hook_add = '''
+  let g:indent_guides_enable_on_vim_startup = 1
+  let g:indent_guides_guide_size = 2
+  let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
+  let g:indent_guides_auto_colors = 0
+  autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=235 guibg=#212326
+'''
