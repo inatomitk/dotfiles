@@ -55,6 +55,7 @@ autocmd BufRead,BufNewFile *.coffee setfiletype coffee
 "" color config
 let g:hybrid_use_iTerm_colors = 1
 colorscheme hybrid
+set background=dark
 " set line color
 hi LineNr ctermbg=0 ctermfg=0
 hi CursorLineNr ctermbg=4 ctermfg=0
