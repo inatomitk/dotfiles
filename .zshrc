@@ -128,4 +128,5 @@ export PATH="/Applications/MacVim.app/Contents/bin:$PATH"
 ### my aliases ###
 alias ssh='ssh-change-bg'
 alias diff='colordiff'
+alias vim='nvim'
 
