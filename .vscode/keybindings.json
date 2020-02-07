@@ -1,0 +1,54 @@
+// Place your key bindings in this file to override the defaults
+[
+  // navigation
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "!sideBarFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "o",
+    "command": "list.select",
+    "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "extension.multiCommand.execute",
+    "args": { "command": "multiCommand.selectAndCloseExplorer" },
+    "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "s",
+    "command": "explorer.openToSide",
+    "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "extension.multiCommand.execute",
+    "args": { "command": "multiCommand.openToSideAndCloseExplorer" },
+    "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "Enter",
+    "command": "list.toggleExpand",
+    "when": "explorerViewletFocus && explorerViewletVisible && explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "x",
+    "command": "list.collapse",
+    "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  }
+]
