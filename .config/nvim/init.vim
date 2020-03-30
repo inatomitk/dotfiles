@@ -42,6 +42,11 @@ cnoremap <C-n> <Down>
 
 nnoremap <ESC><ESC> :nohl<CR>
 
+nnoremap <C-l> <C-w>l
+nnoremap <C-k> <C-w>k
+nnoremap <C-j> <C-w>j
+nnoremap <C-h> <C-w>h
+
 " insert blank line
 nnoremap <CR> i<CR><Esc>
 
