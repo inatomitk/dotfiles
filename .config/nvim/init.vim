@@ -36,6 +36,8 @@ set incsearch
 set wrapscan
 set hlsearch
 
+let mapleader = "\<Space>"
+
 "" alias
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
