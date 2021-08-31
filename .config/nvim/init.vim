@@ -23,7 +23,8 @@ set scrolloff=5
 
 "" tab config
 " visualize tab character
-set list listchars=tab:\▸\-
+" set list listchars=tab:\▸\-
+set list listchars=tab:▸\ ,extends:»,precedes:«
 " input tab to space
 set expandtab
 set tabstop=2
