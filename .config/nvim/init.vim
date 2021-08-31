@@ -52,6 +52,22 @@ nnoremap <C-h> <C-w>h
 " insert blank line
 nnoremap <CR> i<CR><Esc>
 
+" quickfix key mapping
+function! QuickfixMapping()
+  nnoremap <buffer> <silent> t <C-W><CR><C-W>T
+  noremap <buffer> <silent> T <C-W><CR><C-W>TgT<C-W>j
+  noremap <buffer> <silent> o <CR>
+  noremap <buffer> <silent> O <CR><C-W>p<C-W>c
+  noremap <buffer> <silent> go <CR><C-W>p
+  noremap <buffer> <silent> h <C-W><CR><C-W>K
+  noremap <buffer> <silent> H <C-W><CR><C-W>K<C-W>b
+  noremap <buffer> <silent> v <C-W><CR><C-W>H<C-W>b<C-W>J<C-W>t
+  noremap <buffer> <silent> gv <C-W><CR><C-W>H<C-W>b<C-W>J
+  noremap <buffer> <silent> q :q<CR>
+endfunction
+
+autocmd Filetype qf :call QuickfixMapping()
+
 " remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//ge
 
