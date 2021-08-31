@@ -115,6 +115,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# Go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
 
 ### libraries ###
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
