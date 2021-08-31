@@ -19,6 +19,11 @@ repo = 'slim-template/vim-slim'
 on_ft = 'slim'
 
 [[plugins]]
+repo = 'mattn/vim-goimports'
+on_ft = 'go'
+hook_add = '''
+  let g:goimports = 1
+'''
 
 # surround completion
 [[plugins]]
