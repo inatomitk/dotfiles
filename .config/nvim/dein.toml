@@ -6,6 +6,12 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'Shougo/vimproc.vim'
 
+[[plugins]]
+repo = 'chaoren/vim-wordmotion'
+hook_add = '''
+  let g:wordmotion_prefix = '<Leader>'
+'''
+
 # file tree
 [[plugins]]
 repo = 'scrooloose/nerdtree'
