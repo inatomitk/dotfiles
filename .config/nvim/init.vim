@@ -68,6 +68,9 @@ endfunction
 
 autocmd Filetype qf :call QuickfixMapping()
 
+" copy to clipboard
+vnoremap <C-c> :'<,'>!pbcopy;pbpaste<CR>
+
 " remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//ge
 
