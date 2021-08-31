@@ -77,6 +77,7 @@ autocmd BufWritePre * :%s/\s\+$//ge
 " filetype definition
 autocmd BufRead,BufNewFile *.slim setfiletype slim
 autocmd BufRead,BufNewFile *.coffee setfiletype coffee
+autocmd BufNewFile,BufRead *.go set noexpandtab
 
 "" color config
 let g:hybrid_use_iTerm_colors = 1
