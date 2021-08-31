@@ -107,3 +107,25 @@ hook_add = '''
 # comment out shortcut plugin
 [[plugins]]
 repo = 'tpope/vim-commentary'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+hook_add = '''
+  let g:lsp_log_file = ""
+  nmap gd <plug>(lsp-definition)
+  nmap gr <plug>(lsp-references)
+  nmap gi <plug>(lsp-implementation)
+  nmap gy <plug>(lsp-type-definition)
+  nmap <leader>rn <plug>(lsp-rename)
+  nmap K <plug>(lsp-hover)
+  command! Ld LspDocumentDiagnostics
+'''
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+hook_add = '''
+  let g:lsp_settings_root_markers = [
+    \ 'go.mod',
+    \ '.git/',
+  \]
+'''
